@@ -1,0 +1,126 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url(IMG-20241027-WA0258.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100%;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.logo-container {
+  color: black;
+  margin: 5px 20px;
+  padding-bottom: 20px;
+  font-weight: bold;
+  font-family: "Pacifico", cursive;
+  font-size: 20px;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 20px;
+  padding: 0px;
+  display: inline-flex;
+  margin-left: 600px;
+  align-items: center;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+}
+
+.nav-list li a:hover {
+  color: rgb(246, 180, 197);
+  background-color: #f6f2f2;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+.email-link:hover .icon,
+.phone-link:hover .icon {
+  filter: brightness(0.8);
+}
+
+.links a {
+  text-decoration: none;
+  color: dimgrey;
+  background-color: lightgray;
+  text-decoration: none;
+  border: fixed;
+  border: 1px rgba(0, 0, 0, 0.3) solid;
+  padding: 3px 5px;
+}
+h4 {
+  line-height: 20px;
+  display: flex;
+  margin: 2px;
+  color: dimgray;
+}
+section > h1 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 30px;
+  color: dimgray;
+  text-align: center;
+}
+.content {
+  justify-content: space-between;
+  align-items: center;
+
+  backdrop-filter: blur(10px);
+  text-align: center;
+}
+h3 {
+  font-family: "Courier New", Courier, monospace;
+  color: dimgray;
+  text-align: center;
+}
+p {
+  color: dimgray;
+  text-align: center;
+}
+.heart-icon {
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+  margin-right: 8px;
+  filter: hue-rotate(200eg) brightness(1.2);
+}
+main {
+  text-align: center;
+  margin: 150px;
+}
+
+.x {
+  text-align: center;
+  margin-left: 250px;
+}
+.y {
+  text-align: center;
+  margin-left: 325px;
+}
+

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form</title>
+    <link rel="stylesheet" href="style2.css" />
+  </head>
+  <body>
+    <header>
+      <br />
+      <nav>
+        <div class="logo-container">
+          <h1 class="logo">Skillup</h1>
+        </div>
+      </nav>
+    </header>
+    <main class="contant">
+      <div class="login">
+      <p><h2>Log In</h2></p>
+      <form action="/login" method="post">
+        
+        <label for="username">Username:</label><br />
+        <input
+          type="text"
+          id="username"
+          name="username"
+          placeholder="Enter your username"
+          required
+          pattern=".{3,}" 
+          title="Username must be at least 3 characters long."
+        /> <a href="#"><img src="user.png" alt=""></a>
+        <br /><br />
+        
+        <label for="password">Password: </label><br />
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Enter your password"
+          required
+          minlength="8" 
+          title="Password must be at least 8 characters long."
+       /><a href="#"><img src="lock.png" alt=""></a>
+        <br /><br />
+        <div class="remember-forgot">
+          <label><input type="checkbox" >Remember me
+          </label>
+          <a href="#"> forgot password?</a>
+        </div>
+        <label for="message">Message:</label><br />
+        <textarea
+          id="message"
+          name="message"
+          rows="4"
+          cols="30"
+          placeholder="Enter your message"
+          required
+          title="Please enter a message."
+        ></textarea>
+        <br /><br />    
+        <input type="submit" value="Let's go" />
+        </div>
+      </form>
+    </main>
+  </body>
+</html>

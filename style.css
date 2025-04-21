@@ -1,0 +1,81 @@
+body {
+  background-image: url(https://wallpapercave.com/wp/wp3612607.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+
+  height: 0;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.logo {
+  color: black;
+  margin: 5px 20px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+
+  font-family: "Pacifico", cursive;
+  font-size: 20px;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-position: center;
+  padding: 10px;
+}
+#coursesavaliable{
+  width: 600px;
+  padding: 20px;
+  margin: 20px, auto;
+  display: flex;
+  flex: column;
+}
+
+section {
+  background-color: rgb(255, 255, 255);
+  float: left;
+  width: 25%;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  overflow: auto;
+  height: 240px;
+  flex-basis: auto;
+  
+}
+h3 {
+  background-color: rgb(246, 180, 197);
+  padding: 2px;
+}
+span {
+  font-weight: bold;
+}
+p {
+  font-size: smaller;
+}
+a {
+  text-decoration: none;
+  border: fixed;
+  border: 3px rgb(21, 21, 21) solid;
+  padding: 3px 40px;
+  color: black;
+}
+a:hover {
+  background-color: #f6f2f2;
+  color: rgb(246, 180, 197);
+}
+.x {
+  font-style: oblique;
+  font-size: medium;
+}
+.firstcourse {
+  margin: 5px;
+}
+.y {
+  font-size: larger;
+}
